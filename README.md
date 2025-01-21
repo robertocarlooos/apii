@@ -249,11 +249,6 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
    ```
 5. Abra um Pull Request no repositório original.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-
-
 ## Autores
 
 - Roberto López
