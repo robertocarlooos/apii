@@ -248,3 +248,12 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
 
+
+## Autores
+
+- Roberto López
+- Manuel Machado
+  
+  
+
+
