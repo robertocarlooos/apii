@@ -4,6 +4,7 @@ Um aplicativo Android para ajudar os usuários a gerenciar seus medicamentos, co
 
 ## Índice
 - [Descrição](#descrição)
+- [Estrutura de base de dados](#estrutura-de-base-de-dados)
 - [Funcionalidades](#funcionalidades)
 - [Pré-requisitos](#pré-requisitos)
 - [Configuração](#configuração)
@@ -18,6 +19,10 @@ Um aplicativo Android para ajudar os usuários a gerenciar seus medicamentos, co
 Este aplicativo foi desenvolvido para auxiliar usuários no gerenciamento de medicamentos e lembretes personalizados. Inclui funcionalidades para adicionar, editar e excluir medicamentos e notificações, bem como visualizar o histórico de uso.
 
 A parte web do projeto possui as mesmas funcionalidades que a versão móvel, permitindo o gerenciamento de medicamentos, configuração de lembretes e visualização do histórico de forma integrada.
+
+## Estrutura de base de dados
+![Captura de ecrã 2025-01-21 235257](https://github.com/user-attachments/assets/c1ce9bcb-6093-4026-b0ce-9677bc609203)
+
 
 ## Funcionalidades
 
