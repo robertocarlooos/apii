@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_medicamento"
+        android:icon="@drawable/pills_svgrepo_com"
+        android:title="Medicamentos" />
+    <item
+        android:id="@+id/nav_recordatorio"
+        android:icon="@drawable/notification_bell_svgrepo_com"
+        android:title="Recordatórios" />
+    <item
+        android:id="@+id/nav_historico"
+        android:icon="@drawable/history_svgrepo_com"
+        android:title="Histórico" />
+    <item
+        android:id="@+id/nav_notificacoes"
+        android:icon="@drawable/notification_status_svgrepo_com"
+        android:title="Notificações" />
+
+</menu>

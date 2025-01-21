@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Medicamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicamento"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/medicamento_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome:"
+                android:textColor="#555"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp" />
+
+
+            <TextView
+                android:id="@+id/medicamento_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dose:"
+                android:textColor="#555"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp" />
+
+
+            <TextView
+                android:id="@+id/mediamento_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"
+                android:textColor="#555"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp" />
+
+
+            <TextView
+                android:id="@+id/medicameto_quantidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantidade:"
+                android:textColor="#555"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp" />
+
+
+            <TextView
+                android:id="@+id/medicamento_categoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categoria:"
+                android:textColor="#555"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp">
+
+            <ImageView
+                android:id="@+id/edit_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/edit_2_svgrepo_com"
+               />
+
+            <ImageView
+                android:id="@+id/delete_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/delete_left_svgrepo_com"
+                />
+
+            <ImageView
+                android:id="@+id/done_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/done_svgrepo_com"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
