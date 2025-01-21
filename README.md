@@ -1,6 +1,6 @@
 # Gerenciador de Medicamentos e Notificações
 
-Um aplicativo Android para ajudar os usuários a gerenciar seus medicamentos, configurar lembretes para tomá-los e visualizar históricos.
+O projeto possui um aplicativo móvel e um site voltados para o gerenciamento de medicamentos, destinados a pessoas que precisam de suporte para organizar e lembrar de tomar seus medicamentos de forma eficiente. O foco do projeto está em um aplicativo móvel alimentado por uma API e na própria API. O aplicativo móvel oferece funcionalidades como adicionar medicamentos, lembretes personalizados, notificações para horários de medicação, visualização do histórico de uso, além de permitir o registro e login de usuários.
 
 ## Índice
 - [Descrição](#descrição)
@@ -9,7 +9,6 @@ Um aplicativo Android para ajudar os usuários a gerenciar seus medicamentos, co
 - [Configuração](#configuração)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [APIs](#apis)
-- [Contribuições](#contribuições)
 - [Licença](#licença)
 
 ## Descrição
@@ -89,6 +88,11 @@ Contém os arquivos XML que definem o design das telas do aplicativo.
 - **fragment_notificacoes.xml**: Tela para exibição dos lembretes ativos.
 - **fragment_historico.xml**: Tela para exibição do histórico de medicamentos tomados.
 - **fragment_home_screen.xml**: Tela inicial do aplicativo com lista de medicamentos e barra de pesquisa.
+- **fragment_adicionar_medicamento.xml**: Tela para adicionar um novo medicamento.
+- **fragment_editar_medicamento.xml**: Tela para editar os detalhes de um medicamento.
+- **fragment_editar_recordatorio.xml**: Tela para edição de lembretes existentes.
+- **fragment_main_screen.xml**: Tela principal do aplicativo com navegação geral.
+- **fragment_recuardatorios.xml**: Tela para visualização e gerenciamento de lembretes configurados.
 
 #### Itens de layout:
 - **medicamento_item.xml**: Design de cada item da lista de medicamentos.
@@ -129,24 +133,6 @@ Este projeto utiliza APIs para sincronização de dados entre o aplicativo e o s
   ```
   Adiciona um novo lembrete ao usuário.
 
-## Contribuições
-
-Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
-
-1. Faça um fork do repositório.
-2. Crie um branch para sua funcionalidade/correção:
-   ```bash
-   git checkout -b minha-funcionalidade
-   ```
-3. Commit suas alterações:
-   ```bash
-   git commit -m "Adiciona minha funcionalidade"
-   ```
-4. Faça o push para o branch:
-   ```bash
-   git push origin minha-funcionalidade
-   ```
-5. Abra um Pull Request no repositório original.
 
 ## Licença
 
